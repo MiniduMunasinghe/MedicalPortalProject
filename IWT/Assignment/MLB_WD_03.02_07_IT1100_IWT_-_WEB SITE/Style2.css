@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'Poppins', sans-serif;
+	box-sizing:border-box;
+}
+
+body{
+	text-align:center;
+}
+
+.header{
+	background-color:#0474b5;
+	padding:45px;
+	font-size:20;
+	
+	
+}
+
+.header li{
+	display:inline;
+	padding-left:40px;
+	left:50px;
+}
+
+.header li a{
+	color:white;
+	text-decoration:none;
+	padding:5px;
+}
+
+.header li a:hover{
+	color:#0474b5;
+	background-color:#9bd2f2;
+}
+
+.header ul #SignUp a{
+	
+	float:right;
+	position:relative;
+	right:25px;
+	top:-25px;
+}
+
+.header ul #LogIn a{
+	
+	float:right;
+	position:relative;
+	right:90px;
+	bottom:-20px;
+}
+
+.header ul #Logo img{
+	width:170px;
+	float:left;
+	position:relative;
+	top:-75px;
+	left:-70px;
+}
+
+.header ul #Profile img{
+	width:100px;
+	float:right;
+	position:relative;
+	top:-40px;
+	right:-150px;
+}
+
+.active{
+	background-color:#9bd2f2;
+}
+
+
+
+.footer{
+	bottom: 0;    
+	width:100%;
+	display:flex;
+	position: fixed;
+	padding:10px;
+	background-color:#0474b5;
+}
+
+.footer div{
+	text-align:center;
+}
+
+.col-2{
+	flex-grow:2;
+}
+
+.col-3 a{
+	text-decoration:none;
+	display:block;
+	color:black;
+}
+
